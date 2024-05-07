@@ -22,6 +22,7 @@ Step Load Data:
 9. KHUSUS UNTUK LOAD DATA AIRLINES, sebelumnya terlebih dahulu lakukan perintah SET FOREIGN_KEY_CHECKS = 0; ALTER TABLE AIRLINE ADD FOREIGN KEY (base_airport) REFERENCES airport (airport_id); kemudian lakukan load file data tsv
 10. Lakukan Load pada semua file data (estimasi waktu: 2 jam 15 mnt)
 
+<img width="959" alt="image" src="https://github.com/noraaxzsy/airportdb_dw/assets/167008744/4a5a6082-277c-4341-9e87-25f79bf80c07">
 
 Referensi cara lain melakukan Load menggunakan Python (Hanya sekali run):
 https://www.linkedin.com/pulse/uploading-airportdb-free-sample-database-from-mysql-local-timbal/ 
