@@ -25,7 +25,7 @@ Step Load Data:
 7. Ketik perintah LOAD DATA INFILE '/tsv_file/nama_file.tsv' INTO TABLE nama_table FIELDS TERMINATED BY '\t' LINES TERMINATED BY '\n';
 8. Lakukan Load Data sesuai dengan urutan table. Apabila table tersebut memiliki foreign key di table lain, maka lakukan load table referensi terlebih dahulu 
 9. KHUSUS UNTUK LOAD DATA AIRLINES, sebelumnya terlebih dahulu lakukan perintah SET FOREIGN_KEY_CHECKS = 0; ALTER TABLE AIRLINE ADD FOREIGN KEY (base_airport) REFERENCES airport (airport_id); kemudian lakukan load file data tsv
-10. Lakukan Load pada semua file data (estimasi waktu: 2 jam 15 mnt)
+10. Lakukan Load pada semua file data (estimasi waktu: 3 jam)
 
 <img width="959" alt="image" src="https://github.com/noraaxzsy/airportdb_dw/assets/167008744/4a5a6082-277c-4341-9e87-25f79bf80c07">
 
