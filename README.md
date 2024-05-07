@@ -21,3 +21,7 @@ Step Load Data:
 8. Lakukan Load Data sesuai dengan urutan table. Apabila table tersebut memiliki foreign key di table lain, maka lakukan load table referensi terlebih dahulu 
 9. KHUSUS UNTUK LOAD DATA AIRLINES, sebelumnya terlebih dahulu lakukan perintah SET FOREIGN_KEY_CHECKS = 0; ALTER TABLE AIRLINE ADD FOREIGN KEY (base_airport) REFERENCES airport (airport_id); kemudian lakukan load file data tsv
 10. Lakukan Load pada semua file data (estimasi waktu: 2 jam 15 mnt)
+
+
+Referensi cara lain melakukan Load menggunakan Python (Hanya sekali run):
+https://www.linkedin.com/pulse/uploading-airportdb-free-sample-database-from-mysql-local-timbal/ 
