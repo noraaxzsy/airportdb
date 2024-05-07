@@ -11,7 +11,7 @@ Step Create Table:
 8. Setelah create table berhasil dibuat lakukan load data pada table 
 
 Folder TSV:
-Pada file airport-db yang telah didownload, lakukan extract file pada file .zst agar file tsv didalamnya bisa kita load data. Untuk mempermudah melakukan load data, kelompokkan file tsv pada 1 folder dan letakkan pada directory yang sama dengan directory folder XAMPP Anda. (e.g. folder XAMPP pada directory D: maka folder tsv_file yang berisi file .tsv diletakkan pada directory D:\tsv_file 
+Pada file airport-db yang telah didownload, lakukan extract file pada file .zst agar file tsv didalamnya bisa kita lakukan load data. Untuk mempermudah melakukan load data, kelompokkan file tsv pada 1 folder dan letakkan pada directory yang sama dengan directory folder XAMPP Anda. (e.g. folder XAMPP pada directory D: maka folder tsv_file yang berisi file .tsv diletakkan pada directory D:\tsv_file 
 
 Apabila tidak ingin repot" melakukan extract, Anda bisa mendownload tsv_file pada link g-drive yang telah diupload
 
