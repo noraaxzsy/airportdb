@@ -7,8 +7,8 @@ Step Create Table:
 4. Kosongkan isian Database dan Password
 5. Klik Finish
 6. Buat New SQL Script
-7. Lakukan run query menggunakan perintah pada file airport_ddl.sql
-8. Setelah create table berhasil dibuat lakukan load data pada table (total: 14 table)
+7. Lakukan run query menggunakan perintah pada file airport_ddl.sql (total: 14 table)
+8. Setelah create table berhasil dibuat lakukan load data pada table 
 
 Step Load Data:
 1. Buka XAMPP dan Start MySQL dan Apache
